@@ -87,5 +87,5 @@ prompt = prompt + " At the end of the test, add a new section to provide the cor
 
 if st.button("Generate Test"):
     print(prompt)
-    # request_gpt(uploaded_file, prompt, "test")
+    request_gpt(uploaded_file, prompt, "test")
     
